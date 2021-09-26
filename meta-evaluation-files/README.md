@@ -13,7 +13,7 @@ Details on the automatic evaluation metrics are described in our paper: [Evaluat
 The extracted meta-evaluation files are created based on XFORMAL and GYAFC evaluation datasets.
 To obtain access to them, follow the instructions under [Obtaining XFORMAL](https://github.com/Elbria/xformal-FoST).
 
-A short description of their content is given below:
+A short description of the content of the meta-files used in our study is given below:
 
 | Name | Description |
 | --- | --- |
