@@ -1,7 +1,9 @@
 # Multilingual Formality Evaluation: Meaning Evaluation aspect
 
-For evaluation of meaning preservation between an input informal text and an system output
-use the chrF score (official implementation is [here](https://github.com/m-popovic/chrF)).
+For evaluation of meaning preservation between an informal text (system input) and a formal text (system output)
+use the chrF score of Maja Popović (detailed description is found in the
+[chrF: character n-gram F-score for automatic MT evaluation](https://aclanthology.org/W15-3049/);
+official implementation is [here](https://github.com/m-popovic/chrF)).
 
 
 ## Contact
