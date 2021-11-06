@@ -7,10 +7,10 @@ We hope that this work will help accelerate development in ST, where human evalu
 
 ## Outline
 
-* best-practices/: contains code for best performing autoamtic evaluation metrics for FoST for 3 dimensions: formality, meaning, and fluency.
-* meta-evaluation-files/: contains system outputs rated by humans and several autoamatic metrics for 3 evaluation dimensions (i.e., formality, meaning, and fluency) and 4 languages (i.e., English,
+* **best-practices**: contains code for best performing automatic evaluation metrics for FoST for 3 dimensions: formality, meaning, and fluency.
+* **meta-evaluation-files**: contains system outputs rated by humans and several automatic metrics for 3 evaluation dimensions (i.e., formality, meaning, and fluency) and 4 languages (i.e., English,
 French, Italian, and Brazilian-Portuguese).
-* scripts/: contains scripts for running other metrics (beyond the best performing ones) covered in our study.
+* **scripts**: contains scripts for running other metrics (beyond the best performing ones) covered in our study.
 
 ## Contact
 If you use any contents of this repository, please cite us. For any questions, write to ebriakou@cs.umd.edu.
