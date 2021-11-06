@@ -3,8 +3,8 @@
 This repository describes how to obtain formality regressors for multilingual automatic evaluation of Formality Style
 Transfer (FoST), as detailed in [Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer](https://aclanthology.org/2021.emnlp-main.100/).
 
-The evaluation is based on a *single* model that fine-tunes XLM-R [1](https://aclanthology.org/2020.acl-main.747.pdf)
-on English formality ratings [2](https://aclanthology.org/Q16-1005/). Evaluation on languages other than
+The evaluation is based on a **single** model that fine-tunes XLM-R [[1]](https://aclanthology.org/2020.acl-main.747.pdf)
+on English formality ratings [[2]](https://aclanthology.org/Q16-1005/). Evaluation on languages other than
 English is performed in a zero-shot setting.
 
 
@@ -16,16 +16,19 @@ follow the instructions in the above repo for requirements and install transform
     pip install -e .
     cd ..
 
-## Training Formality Regressor
+## Training
 To train a formality regressor from scratch on data provided unsed PT16_for_huggingface execute the command
 below:
 
     bash train.sh
 
-## Evaluate Formality Regressor
+In addition, we release a trained version of the model used in our paper [here](https://umd.box.com/s/5s64hyil8938gmp46hfdtcouzyqmf0am).
+
+## Evaluation
 Evaluate the regressor using the below script (you may need to adjust path in the evaluation script):
 
     bash inference_formality.sh
+
 
 ## Contact
 If you use any contents of this repository, please cite us. For any questions, write to ebriakou@cs.umd.edu.

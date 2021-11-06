@@ -9,7 +9,7 @@ Fine-tuning multilingual pre-trained models on this data is found to correlate b
 with human evaluation judgments collected in [2](https://aclanthology.org/N18-1012/) and [3](https://aclanthology.org/2021.naacl-main.256/) for Formality Style Transfer in the following languages:
 English, French,  Italian, and Brazilian-Portuguese [4](https://aclanthology.org/2021.emnlp-main.100/).
  
-*Note:* The regressor is used in a zero-shot setting for languages other than English.
+**Note:** The regressor is used in a zero-shot setting for languages other than English.
 
 If you use the regressor model please cite the following papers
 
